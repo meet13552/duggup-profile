@@ -1,0 +1,39 @@
+{
+  "profile_details": {
+    "profile_image": "profile-image.jpeg",
+    "first_name": "Krishna",
+    "last_name": "Karan",
+    "bio": "Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of Engineering. I write hot-takes on building a business, shipping delightful products and accelerating product and career growth.",
+    "company": "Duggup",
+    "current_position": "Co-Founder & CEO",
+    "website": "https://www.linkedin.com/in/meetmota/"
+  },
+  "timeline": [
+    {
+      "position": "Co-Founder & CEO",
+      "job_type": "Full-time · Remote",
+      "company": "Duggup",
+      "location": "San Francisco Bay Area",
+      "joined": "Nov 2023",
+      "company_image": "logo.png",
+      "story_time": "Dec 2023",
+      "story_1": "No amount of technology can convert a bad story into a good story.",
+      "story_image_1": "img1.jpeg",
+      "story_2": "Most people don't have original ideas. Here is how Sam Altman pushes himself to have unpopular ideas.",
+      "story_image_2": "img2.jpeg"
+    },
+    {
+      "position": "VP Engineering",
+      "job_type": "Full-time",
+      "company": "BetterUp",
+      "location": "San Francisco Bay Area",
+      "joined": "Sep 2023",
+      "company_image": "company_img_2.jpg",
+      "story_time": "Dec 2023",
+      "story_1": "Startup Lesson I am reflecting. Don't build for the average person.",
+      "story_image_1": "img3.jpeg",
+      "story_2": "Your biggest regrets at 80 will be acts of omission.",
+      "story_image_2": "img4.jpeg"
+    }
+  ]
+}
