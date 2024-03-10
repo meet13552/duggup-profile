@@ -5,7 +5,7 @@
 import "../app.pcss";
 import jsonData from '../data.json';
 </script>
-<Header />
+<Header {jsonData}/>
 <Profile {jsonData}/>
 <Timeline {jsonData}/>
 <slot />

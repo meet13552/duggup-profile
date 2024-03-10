@@ -1,6 +1,13 @@
-<script>
+<script lang="ts">
   import { Button } from "./ui/button";
   import { SquarePlus, ChevronDown } from 'lucide-svelte';
+
+  interface Props {
+    jsonData: any;
+  }
+
+  export let jsonData: Props['jsonData'];
+
 </script>
 <div class="bg-[#FCFCFF] z-10 sticky top-0 left-0">
 <header class="flex h-16 mx-[10%] pt-4 justify-between">
@@ -26,10 +33,10 @@
             Post
         </Button>
     </div>
-    <div class="flex flex-row pl-10">
-        <img src="profile-image.jpeg" alt="" class="rounded-full border-[#4D4D4D] border-[0.5px]" />
+    <div class="flex flex-row flex-none pl-10">
+        <img src="profile-image.jpeg" alt="" class="rounded-full border-[#4D4D4D] border-[0.5px] w-[46px] h-[46px]" />
         <Button variant="link" class="text-[#4D4D4D] text-[20px] font-[500] pt-3">
-            Krishna Kiran
+            {jsonData.profile_details.first_name} {jsonData.profile_details.last_name}
             <ChevronDown class="pl-2"/>
         </Button>
     </div>
