@@ -12,11 +12,13 @@
     let isFollowed = false;
     let buttonText = isFollowed ? 'Followed' : 'Follow';
     let dropShadow = isFollowed ? 'drop-shadow-[0_2px_#4D4D4D]' : 'drop-shadow-[0_4px_#4D4D4D]';
+    let width = isFollowed ? 'w-[107px]' : 'w-[91px]'
 
     function handleClick() {
         isFollowed = !isFollowed;
         buttonText = isFollowed ? 'Followed' : 'Follow';
         dropShadow = isFollowed ? 'drop-shadow-[0_2px_#4D4D4D]' : 'drop-shadow-[0_4px_#4D4D4D]';
+        width = isFollowed ? 'w-[107px]' : 'w-[91px]'
     }
 </script>
 
@@ -31,7 +33,7 @@
     <div class="flex flex-col mx-[6%] justify-center">
         <p class="font-[400] text-[14px] text-[#141618] text-left leading-[24px]">{jsonData.profile_details.bio}</p>
 
-        <Button on:click={handleClick} variant="outline" class={"mt-[30px] font-[400] text-[14px] text-[#4D4D4D] w-[91px] h-[36px] border-[#4D4D4D] w-24 hover:bg-[#0066FF] hover:text-[#ffffff] hover:drop-shadow-[0_2px_#003A91] " + dropShadow}>
+        <Button on:click={handleClick} variant="outline" class={"mt-[30px] font-[400] text-[14px] text-[#4D4D4D] h-[36px] border-[#4D4D4D] w-24 hover:bg-[#0066FF] hover:text-[#ffffff] hover:drop-shadow-[0_2px_#003A91] " + dropShadow  + " " + width}>
             {buttonText}
         </Button>
     </div>
