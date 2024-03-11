@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[344px] h-[226px] flex flex-col ml-12">
+        <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[344px] h-[226px] flex flex-col ml-[36px]">
             <img src="{item.story_image_2}" alt="" class="object-cover rounded-t-[12px] w-[344px] h-[136px]"/>
             <div class="flex flex-row justify-center items-center h-full">
             <p class="font-[400] text-[14px] text-[#141618] leading-[21px] mx-6">{item.story_2}</p>
