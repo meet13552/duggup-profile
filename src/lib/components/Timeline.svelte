@@ -18,7 +18,7 @@
     <div class="pt-8 flex flex-row">
         <p class="-ml-[100px] mt-[107px] text-[12px] font-[400] text-[#7A9299]">{item.story_time}</p>
         <div class="rounded-full absolute -ml-[7px] h-[16px] w-[16px] flex bg-white border-[3px] border-[#0066FF] mt-[108px]"></div>
-        <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[344px] h-[226px] flex flex-col ml-24">
+        <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[344px] h-[226px] flex flex-col ml-[87px]">
             <img src="{item.story_image_1}" alt="" class="object-cover rounded-t-[12px] w-[344px] h-[136px]"/>
             <div class="flex flex-row justify-center items-center h-full">
             <p class="font-[400] text-[14px] text-[#141618] leading-[21px] mx-6">{item.story_1}</p>
@@ -52,8 +52,8 @@
         <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[733px] h-[83px] flex flex-col ml-24 mt-3">
 
             <div class="flex flex-col justify-center h-full">
-                <p class="font-[700] text-[20px] text-[#141618] mx-6">Co-Founder & CEO</p>
-                <p class="font-[400] text-[12px] text-[#7A9299] mx-6">Full-time · Remote</p>
+                <p class="font-[700] text-[20px] text-[#141618] mx-6">{item.position}</p>
+                <p class="font-[400] text-[12px] text-[#7A9299] mx-6">{item.job_type}</p>
             </div>
 
         </div>
