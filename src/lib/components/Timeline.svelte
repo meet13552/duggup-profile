@@ -49,7 +49,7 @@
         </div>
         <div class="rounded-full absolute -ml-[13.5px] h-[28px] w-[28px] flex bg-white border-[9px] border-[#0066FF] mt-[40px]"></div>
 
-        <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[733px] h-[83px] flex flex-col ml-24 mt-3">
+        <div class="border-[0.5px] border-[#D0D5DD] rounded-[12px] bg-white w-[733px] h-[83px] flex flex-col ml-[87px] mt-3">
 
             <div class="flex flex-col justify-center h-full">
                 <p class="font-[700] text-[20px] text-[#141618] mx-6">{item.position}</p>
